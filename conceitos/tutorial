@@ -1,0 +1,61 @@
+/* conseguir trabalhar com flexbox */
+
+/* 
+sempre colocar um display flex na tag que quiser alinhar 
+por padrao flex alinha os items horizontalmente um ao lado do outro
+
+flex-direction -> determina a posição dos elementos (vertical horizontal)
+
+
+
+Quando estiver utilizando o "flex-direction: ROW": 
+
+align-items -> ira alinhar o conteudo verticalmente
+* flex-start - alinhar o conteudo (container, div, section) sempre no inicio
+* center -> alinhas o conteudo (container) no centro
+
+justify-content -> alinhar os itens horizontamente
+* flex-start - alinhar os itens sempre no inicio
+* center -> alinhas os itens (container) no centro 
+* space-between -> adiciona um espaço igual entro items
+* space-around -> adiciona um espaço nas bordar (igual ao space-beetween)
+
+*/
+
+Quando estiver utilizando o "flex-direction: COLUMN": 
+
+align-items -> ira alinhar o conteudo horizontalmente
+* flex-start - alinhar o conteudo (container, div, section) sempre no inicio
+* center -> alinhas o conteudo (container) no centro
+
+justify-content -> alinhar os itens verticalmente
+* flex-start - alinhar os itens sempre no inicio
+* center -> alinhas os itens (container) no centro 
+* space-between -> adiciona um espaço igual entro items
+* space-around -> adiciona um espaço nas bordar (igual ao space-beetween)
+
+*/
+
+-------------------------------------------------------------------------------
+como controlar se um componente 
+deve ser espremido ou ate aumentando para caber no espaço desejado
+
+flex-grow -> afirma que o componente deseja ser 
+aumentando para acaber no container dele "PAI"
+
+flex-shrink -> 
+* afirma se o componente tem a capacidade de se espremer 
+no container. 
+* por padrao inicia-se em 1;
+
+
+a junçao desses dois conceitos seria: 
+flex: 1 1; o primeiro valor é o grow e segundo shrink
+
+-------------------------------------------------------------------------------
+quebra de linhas
+
+flex-wrap: wrap;
+-------------------------------------------------------------------------------
+
+propriedade de ordem
